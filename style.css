@@ -59,6 +59,12 @@ section {
     width: 100vw;
 }
 
+
+/* ADD TO POSTS ON INDEX IF THERE'S NO FEATURED POST. RG. SEARCH RESULTS PAGE */
+.section__extra-margin {
+    margin-top: 7rem;
+}
+
 h1,
 h2,
 h3,
@@ -452,6 +458,12 @@ footer ul a:hover {
 .alert__message.success {
     background: var(--color-green-light);
     color: var(--color-green);
+}
+
+
+/* CENTERS TEXT OF ALERT. EG. EMPTY CATEGORY-POSTS PAGE */
+.alert__message.lg {
+    text-align: center;
 }
 
 form {
