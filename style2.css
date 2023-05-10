@@ -1,24 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
-
 :root {
-    --color-primary: #6f6af8;
-    --color-primary-light: hsl(242, 91%, 69%, 18%);
+    --color-primary: #F9F5EB;
+    --color-primary-light: #9BA4B5;
     --color-primary-variant: #5854c7;
     --color-red: #da0f3f;
     --color-red-light: hsl(346, 87%, 46%, 15%);
     --color-green: #00c476;
     --color-green-light: hsl(156, 100%, 38%, 15%);
-    --color-gray-900: #1e1e66;
-    --color-gray-700: #2d2b7c;
+    --color-gray-900: #F4EEE0;
+    --color-gray-700: #E4DCCF;
     --color-gray-300: rgba(242, 242, 254, 0.3);
-    --color-gray-200: rgba(242, 242, 254, 0.7);
-    --color-white: #f2f2fe;
-    --color-bg: #0f0f3e;
+    --color-gray-200: rgba(33, 42, 62, 0.7);
+    --color-white: #537188;
+    --color-bg: #ddd;
 
     --transition: all 300ms ease;
 
     --container-width-lg: 74%;
-    --container-width-md: 88%;
+    --container-width-md: 88%; 
     --form-width: 40%;
 
     --card-border-radius-1: 0.3rem;
@@ -39,10 +37,10 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: var(--color-gray-200);
     overflow-x: hidden;
@@ -388,6 +386,7 @@ footer ul a:hover {
 
 .btn.danger {
     background: var(--color-red);
+    color: var(--color-bg);
 }
 
 .btn:hover {
@@ -499,7 +498,8 @@ input, textarea, select {
 }
 
 .form__section small a {
-    color: var(--color-primary);
+    color: var(--color-grey-200);
+    font-weight: 700;
 }
 
 /* DASHBOARD */
